@@ -1,0 +1,6 @@
+services:
+email:
+  image:djfarrell/maildev
+  ports:
+   -25:25
+   -8000-80
